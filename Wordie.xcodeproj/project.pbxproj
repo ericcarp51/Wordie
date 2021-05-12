@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B1627572644177900B09737 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B1627562644177900B09737 /* DataManager.swift */; };
+		1B16275E2644422B00B09737 /* FlashCardsGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B16275D2644422B00B09737 /* FlashCardsGame.swift */; };
+		1B6CDBDA2638526000A2F71A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CDBD92638526000A2F71A /* AppDelegate.swift */; };
+		1B6CDBDC2638526000A2F71A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CDBDB2638526000A2F71A /* SceneDelegate.swift */; };
+		1B6CDBE12638526000A2F71A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CDBDF2638526000A2F71A /* Main.storyboard */; };
+		1B6CDBE62638526100A2F71A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CDBE52638526100A2F71A /* Assets.xcassets */; };
+		1B6CDBE92638526100A2F71A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B6CDBE72638526100A2F71A /* LaunchScreen.storyboard */; };
+		1B6CDBF42638530000A2F71A /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CDBF32638530000A2F71A /* MainMenuViewController.swift */; };
+		1B6CDBF82638574A00A2F71A /* ListOfWordsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CDBF72638574A00A2F71A /* ListOfWordsTableViewController.swift */; };
+		1B6CDC012638837600A2F71A /* WordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6CDC002638837600A2F71A /* WordViewController.swift */; };
+		1BA2AD67264304DF00E1D864 /* FlashCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA2AD66264304DF00E1D864 /* FlashCardsViewController.swift */; };
+		1BBAC53E2639A40800A2AF7D /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAC53D2639A40800A2AF7D /* Word.swift */; };
+		1BBAC5412639A4FE00A2AF7D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBAC5402639A4FE00A2AF7D /* Constants.swift */; };
+		1BCF36202646A61F009DB1E6 /* FlashCardsGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BCF361F2646A61F009DB1E6 /* FlashCardsGameTests.swift */; };
+		1BEF7BB8263B3633008B0186 /* DataSourceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEF7BB7263B3633008B0186 /* DataSourceManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1BCF36182646A5D2009DB1E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B6CDBCE2638526000A2F71A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B6CDBD52638526000A2F71A;
+			remoteInfo = Wordie;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B1627562644177900B09737 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1B16275D2644422B00B09737 /* FlashCardsGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsGame.swift; sourceTree = "<group>"; };
+		1B6CDBD62638526000A2F71A /* Wordie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordie.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6CDBD92638526000A2F71A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B6CDBDB2638526000A2F71A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1B6CDBE02638526000A2F71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B6CDBE52638526100A2F71A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B6CDBE82638526100A2F71A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B6CDBEA2638526100A2F71A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B6CDBF32638530000A2F71A /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
+		1B6CDBF72638574A00A2F71A /* ListOfWordsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfWordsTableViewController.swift; sourceTree = "<group>"; };
+		1B6CDC002638837600A2F71A /* WordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordViewController.swift; sourceTree = "<group>"; };
+		1BA2AD66264304DF00E1D864 /* FlashCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsViewController.swift; sourceTree = "<group>"; };
+		1BBAC53D2639A40800A2AF7D /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		1BBAC5402639A4FE00A2AF7D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1BCF36132646A5D2009DB1E6 /* WordieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1BCF36172646A5D2009DB1E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BCF361F2646A61F009DB1E6 /* FlashCardsGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCardsGameTests.swift; sourceTree = "<group>"; };
+		1BEF7BB7263B3633008B0186 /* DataSourceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B6CDBD32638526000A2F71A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCF36102646A5D2009DB1E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B523D5D264BD01300109DFA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1B6CDBF32638530000A2F71A /* MainMenuViewController.swift */,
+				1BA2AD66264304DF00E1D864 /* FlashCardsViewController.swift */,
+				1B6CDBF72638574A00A2F71A /* ListOfWordsTableViewController.swift */,
+				1B6CDC002638837600A2F71A /* WordViewController.swift */,
+				1BEF7BB7263B3633008B0186 /* DataSourceManager.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1B523D5E264BD03000109DFA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BBAC53D2639A40800A2AF7D /* Word.swift */,
+				1B16275D2644422B00B09737 /* FlashCardsGame.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1B523D61264BD04B00109DFA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1B6CDBDF2638526000A2F71A /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1B523D66264BD92C00109DFA /* Persistence */ = {
+			isa = PBXGroup;
+			children = (
+				1B1627562644177900B09737 /* DataManager.swift */,
+			);
+			path = Persistence;
+			sourceTree = "<group>";
+		};
+		1B6CDBCD2638526000A2F71A = {
+			isa = PBXGroup;
+			children = (
+				1B6CDBD82638526000A2F71A /* Wordie */,
+				1BCF36142646A5D2009DB1E6 /* WordieTests */,
+				1B6CDBD72638526000A2F71A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B6CDBD72638526000A2F71A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B6CDBD62638526000A2F71A /* Wordie.app */,
+				1BCF36132646A5D2009DB1E6 /* WordieTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B6CDBD82638526000A2F71A /* Wordie */ = {
+			isa = PBXGroup;
+			children = (
+				1B523D5E264BD03000109DFA /* Model */,
+				1B523D61264BD04B00109DFA /* View */,
+				1B523D5D264BD01300109DFA /* Controller */,
+				1B523D66264BD92C00109DFA /* Persistence */,
+				1B6CDBF12638528F00A2F71A /* Suppoting Files */,
+				1B6CDBEA2638526100A2F71A /* Info.plist */,
+			);
+			path = Wordie;
+			sourceTree = "<group>";
+		};
+		1B6CDBF12638528F00A2F71A /* Suppoting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B6CDBD92638526000A2F71A /* AppDelegate.swift */,
+				1B6CDBDB2638526000A2F71A /* SceneDelegate.swift */,
+				1BBAC5402639A4FE00A2AF7D /* Constants.swift */,
+				1B6CDBE52638526100A2F71A /* Assets.xcassets */,
+				1B6CDBE72638526100A2F71A /* LaunchScreen.storyboard */,
+			);
+			path = "Suppoting Files";
+			sourceTree = "<group>";
+		};
+		1BCF36142646A5D2009DB1E6 /* WordieTests */ = {
+			isa = PBXGroup;
+			children = (
+				1BCF361F2646A61F009DB1E6 /* FlashCardsGameTests.swift */,
+				1BCF36172646A5D2009DB1E6 /* Info.plist */,
+			);
+			path = WordieTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B6CDBD52638526000A2F71A /* Wordie */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B6CDBED2638526100A2F71A /* Build configuration list for PBXNativeTarget "Wordie" */;
+			buildPhases = (
+				1B6CDBD22638526000A2F71A /* Sources */,
+				1B6CDBD32638526000A2F71A /* Frameworks */,
+				1B6CDBD42638526000A2F71A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wordie;
+			packageProductDependencies = (
+			);
+			productName = Wordie;
+			productReference = 1B6CDBD62638526000A2F71A /* Wordie.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1BCF36122646A5D2009DB1E6 /* WordieTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BCF361C2646A5D2009DB1E6 /* Build configuration list for PBXNativeTarget "WordieTests" */;
+			buildPhases = (
+				1BCF360F2646A5D2009DB1E6 /* Sources */,
+				1BCF36102646A5D2009DB1E6 /* Frameworks */,
+				1BCF36112646A5D2009DB1E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1BCF36192646A5D2009DB1E6 /* PBXTargetDependency */,
+			);
+			name = WordieTests;
+			productName = WordieTests;
+			productReference = 1BCF36132646A5D2009DB1E6 /* WordieTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B6CDBCE2638526000A2F71A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					1B6CDBD52638526000A2F71A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					1BCF36122646A5D2009DB1E6 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 1B6CDBD52638526000A2F71A;
+					};
+				};
+			};
+			buildConfigurationList = 1B6CDBD12638526000A2F71A /* Build configuration list for PBXProject "Wordie" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B6CDBCD2638526000A2F71A;
+			packageReferences = (
+			);
+			productRefGroup = 1B6CDBD72638526000A2F71A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B6CDBD52638526000A2F71A /* Wordie */,
+				1BCF36122646A5D2009DB1E6 /* WordieTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B6CDBD42638526000A2F71A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B6CDBE92638526100A2F71A /* LaunchScreen.storyboard in Resources */,
+				1B6CDBE62638526100A2F71A /* Assets.xcassets in Resources */,
+				1B6CDBE12638526000A2F71A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCF36112646A5D2009DB1E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B6CDBD22638526000A2F71A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BA2AD67264304DF00E1D864 /* FlashCardsViewController.swift in Sources */,
+				1B6CDBDA2638526000A2F71A /* AppDelegate.swift in Sources */,
+				1BEF7BB8263B3633008B0186 /* DataSourceManager.swift in Sources */,
+				1B6CDBF82638574A00A2F71A /* ListOfWordsTableViewController.swift in Sources */,
+				1B6CDBF42638530000A2F71A /* MainMenuViewController.swift in Sources */,
+				1B1627572644177900B09737 /* DataManager.swift in Sources */,
+				1B6CDC012638837600A2F71A /* WordViewController.swift in Sources */,
+				1B6CDBDC2638526000A2F71A /* SceneDelegate.swift in Sources */,
+				1B16275E2644422B00B09737 /* FlashCardsGame.swift in Sources */,
+				1BBAC53E2639A40800A2AF7D /* Word.swift in Sources */,
+				1BBAC5412639A4FE00A2AF7D /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BCF360F2646A5D2009DB1E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BCF36202646A61F009DB1E6 /* FlashCardsGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1BCF36192646A5D2009DB1E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B6CDBD52638526000A2F71A /* Wordie */;
+			targetProxy = 1BCF36182646A5D2009DB1E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B6CDBDF2638526000A2F71A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B6CDBE02638526000A2F71A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B6CDBE72638526100A2F71A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B6CDBE82638526100A2F71A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B6CDBEB2638526100A2F71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B6CDBEC2638526100A2F71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B6CDBEE2638526100A2F71A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wordie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Wordie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1B6CDBEF2638526100A2F71A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Wordie/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.Wordie;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1BCF361A2646A5D2009DB1E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WordieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordie.app/Wordie";
+			};
+			name = Debug;
+		};
+		1BCF361B2646A5D2009DB1E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WordieTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.WordieTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordie.app/Wordie";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B6CDBD12638526000A2F71A /* Build configuration list for PBXProject "Wordie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6CDBEB2638526100A2F71A /* Debug */,
+				1B6CDBEC2638526100A2F71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B6CDBED2638526100A2F71A /* Build configuration list for PBXNativeTarget "Wordie" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B6CDBEE2638526100A2F71A /* Debug */,
+				1B6CDBEF2638526100A2F71A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1BCF361C2646A5D2009DB1E6 /* Build configuration list for PBXNativeTarget "WordieTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1BCF361A2646A5D2009DB1E6 /* Debug */,
+				1BCF361B2646A5D2009DB1E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B6CDBCE2638526000A2F71A /* Project object */;
+}
